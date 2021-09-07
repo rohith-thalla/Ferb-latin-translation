@@ -4,7 +4,7 @@ var button = document.querySelector("#btn");
 var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json"
 
 function servercall(text){
-    return serverURL + "?" + "key=" + text;
+    return serverURL + "?" + "text=" + text;
 }
 
 function errorhandling(error){
